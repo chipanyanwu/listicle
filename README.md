@@ -32,7 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/h1Y0kwq.gif' title='Video Walkthrough' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/bvsznSB.gif' title='Video Walkthrough' alt='Video Walkthrough' />
 
 GIF created with Kap
 
