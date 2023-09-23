@@ -31,6 +31,7 @@ const renderRestaurants = async () => {
       restaurantAddress.textContent = restaurant.address
 
       const restaurantDescription = document.createElement("p")
+      restaurantDescription.classList.add("line-clamp")
       restaurantDescription.textContent = restaurant.description
 
       cardTitles.appendChild(restaurantName)
@@ -63,4 +64,9 @@ const renderRestaurants = async () => {
   }
 }
 
-renderRestaurants()
+const requestedURL = window.location.href.split("/").pop()
+if (requestedURL) {
+  window.location.href = "/404.html"
+} else {
+  renderRestaurants()
+}
