@@ -15,7 +15,7 @@ const renderRestaurants = async () => {
       // Image
       const cardHeader = document.createElement("header")
       cardHeader.classList.add("card-header")
-      cardHeader.style.backgroundImage = `url(${restaurant.imageUrl})`
+      cardHeader.style.backgroundImage = `url(${restaurant.image})`
       cardHeader.style.backgroundSize = "cover"
       cardHeader.style.backgroundRepeat = "no-repeat"
       cardHeader.style.backgroundPosition = "center center"

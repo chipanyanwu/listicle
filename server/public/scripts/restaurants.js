@@ -15,7 +15,7 @@ const renderRestaurants = async () => {
       // Image
       const cardHeader = document.createElement("header")
       cardHeader.classList.add("card-header")
-      cardHeader.style.backgroundImage = `url(${restaurant.imageUrl})`
+      cardHeader.style.backgroundImage = `url(${restaurant.image})`
       cardHeader.style.backgroundSize = "cover"
       cardHeader.style.backgroundRepeat = "no-repeat"
       cardHeader.style.backgroundPosition = "center center"
@@ -31,6 +31,7 @@ const renderRestaurants = async () => {
       restaurantAddress.textContent = restaurant.address
 
       const restaurantDescription = document.createElement("p")
+      restaurantDescription.classList.add("line-clamp")
       restaurantDescription.textContent = restaurant.description
 
       cardTitles.appendChild(restaurantName)

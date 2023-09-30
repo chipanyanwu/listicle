@@ -13,7 +13,7 @@ const renderRestaurant = async () => {
     const address = document.getElementById("address")
     const description = document.getElementById("description")
 
-    image.src = restaurant.imageUrl
+    image.src = restaurant.image
     name.textContent = restaurant.name
     address.textContent = restaurant.address
     description.textContent = restaurant.description

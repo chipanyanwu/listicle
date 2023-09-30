@@ -1,4 +1,5 @@
 import express from "express"
+import "./config/dotenv.js"
 
 import restaurantsRouter from "./routes/restaurants.js"
 
